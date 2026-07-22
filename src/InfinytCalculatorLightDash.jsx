@@ -177,7 +177,7 @@ export default function InfinytCalculatorLightDash() {
   );
   const faturamento = vendas * ticket;
 
-  const custoOutros = 0.32;
+  const custoOutros = 0.35;
   const custoInfinyt = 0.04;
   const economiaMensal = leads * (custoOutros - custoInfinyt);
   const economiaAnual = economiaMensal * 12;
